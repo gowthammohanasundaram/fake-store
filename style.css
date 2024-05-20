@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(47, 8, 47);
+}
+nav div{
+    color: white;
+    font-size: 25px;
+    padding: 25px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.main_blk{
+    height: 650px;
+    width: 100%;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+}
+.main_blk #product_blk{
+    height: inherit;
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_blk #product_blk .card{
+    height: 500px;
+    width: 750px;
+    /* border: 2px solid; */
+    box-shadow: 2px 2px 15px gray;
+    border-radius: 10px;
+    display: flex;
+}
+.main_blk #product_blk .card .img_blk{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid blue; */
+    padding: 15px 25px;
+}
+.main_blk #product_blk .card .img_blk img{
+    height: 350px;
+    width: 300px;
+}
+.main_blk #product_blk .card .img_blk h2{
+    padding: 30px 0px;
+    color: rgb(19, 175, 19);
+}
+.main_blk #product_blk .card .content_blk{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid blue; */
+    padding: 20px 25px;
+    border-left: 5px solid rgb(132, 36, 132);
+    overflow: auto;
+}
+.main_blk #product_blk .card .content_blk #category{
+    font-size: 28px;
+    text-transform: capitalize;
+    color: rgb(84, 17, 84);
+    text-shadow: 2px 2px 10px gray;
+}
+.main_blk #product_blk .card .content_blk #title{
+    font-size: 25px;
+    padding: 15px 0px;
+    text-decoration: underline;
+}
+
+.main_blk #product_blk .card .content_blk #desc{
+    font-size: 17px;
+    opacity: 0.9;
+
+}
+.main_blk #product_blk .card .content_blk button{
+    padding: 10px 25px;
+    margin-top: 30px;
+    background-color: rgb(228, 228, 39);
+    font-size: 18px;
+    color: rgb(88, 17, 88);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px purple;
+}
+.main_blk #product_blk .card .content_blk button:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 20px grey;
+    border: 1px solid black;
+}
+.main_blk #product_list{
+    height: inherit;
+    width: 25%;
+    /* border: 1px solid red; */
+    border-left: 10px solid rgb(114, 24, 114);
+    border-radius: 20px;
+    overflow: auto;
+}
+.main_blk #product_list #product{
+    width: 100%;
+    height: max-content;
+    border-bottom: 1px solid;
+    padding: 10px 30px;
+}
+.main_blk #product_list #product img{
+    height: 200px;
+    width: 200px;
+}
+.main_blk #product_list #product h2{
+    font-size: 20px;
+} 
